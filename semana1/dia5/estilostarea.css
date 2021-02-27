@@ -1,0 +1,23 @@
+#nombre {
+    text-align: center;
+    size: 40px;
+    font: bold;
+}
+.clase1 {
+    background-color: yellow;
+    text-align: left;
+    width: 20%;
+}
+.clase2 {
+    background-color: rgb(0, 128, 107);
+    text-align: left;
+    width: 50%;
+}
+#nombreaño {
+    background-color: hotpink;
+    border: solid 1px;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
