@@ -26,6 +26,7 @@ div {
     float: right;
     width: 45%;
     border: solid 2px;
+    border-radius: 20%;
 }
 footer{
     text-align: center;
