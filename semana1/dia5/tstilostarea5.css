@@ -38,5 +38,6 @@ footer{
     background-color: rgb(0, 128, 79);
 }
 nav {
-    size: 20em;
+    font-size: 5em;
+    text-align: center;
 }
