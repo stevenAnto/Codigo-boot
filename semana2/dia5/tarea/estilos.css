@@ -1,0 +1,21 @@
+#foto {
+    filter: grayscale(100%);
+    width: 80%;
+    margin-left: 5em;
+    height: 20%;
+    
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+div{
+    background-color: papayawhip;
+    width: 100%
+}
+img{
+    text-align: center;
+    height: 20%;
+}

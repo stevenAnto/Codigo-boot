@@ -1,0 +1,26 @@
+/* img{
+    filter: grayscale(100%)
+
+}
+    */
+
+#imagencolor {
+    text-align: center;
+    transform: rotate(20deg);
+
+    
+}
+#imagengris {
+    filter: grayscale(100%);
+    transform:skewY(20deg)
+}
+/* body div div{
+    text-align: center;
+    transform: rotate(20deg); */
+}
+/* #ctn {
+    display: inline-flex;
+} */
+#imagenborrosa {
+    filter:blur(20px)
+}

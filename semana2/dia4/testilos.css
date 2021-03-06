@@ -1,0 +1,41 @@
+body{
+    background-image: url(./asset/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+div {
+     margin-top: 1em;
+     margin-bottom: 1em;
+     border: rgb(130, 0, 33) solid 2px;
+     height: 49em;
+     
+
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+#fotofalcon {
+    border: orange  solid 2px  ;
+    padding: 0em;
+    width: 50em;
+    height: 20em;
+
+}
+p{
+    width: 59%;
+    height: 21em;
+    border: 1em orange;
+    border-style: dashed;
+    overflow-y: scroll;
+    font-size: 3em;
+}
+
+width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 5px solid green;

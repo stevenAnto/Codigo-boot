@@ -1,0 +1,28 @@
+body {
+    width: 1000px;
+    height: 1000px;
+    
+    background-color: azure;
+}
+#titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+img {
+    width: 480px;
+    height: 200;
+    border-radius: 50%;
+    border: solid green 10px;
+    margin: 30px;
+}
+#letracancion {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: blue solid 1px;
+}
+footer {
+    background-color: aquamarine;
+}
+div {
+    text-align: center;
+}

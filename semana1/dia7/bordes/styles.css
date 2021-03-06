@@ -1,0 +1,25 @@
+h2 {
+    border-top-style: double;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dotted;
+}
+#borde-puntitos {
+    border-style: inset;
+}
+#borde-lineas{
+    border-style: double;
+}
+#borde-solido{
+    border-style: solid;
+}
+#borde-doble{
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-right-style: double;
+    border-left-style: double;
+
+
+}
+animation-name::first-letter
+@keyframes

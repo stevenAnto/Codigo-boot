@@ -1,0 +1,21 @@
+#primer-parrafo {
+    background-color: red;
+    max-width: 50%;
+    opacity: 0.4;
+
+}
+#segundo-parrafo {
+    background-color: blue;
+
+}
+#tercer-parrafo {
+    background-color: rgba(75,192,122,0.4);
+
+}
+#contenedor{
+    height: 400px;
+    width: 350px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Greek_pi.svg/1200px-Greek_pi.svg.png");
+    background-size: contain; /*que contenga*/
+  
+}

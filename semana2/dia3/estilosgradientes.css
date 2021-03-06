@@ -1,0 +1,58 @@
+#gradiente-lineal {
+    height: 250px;
+    width: 250px;
+
+    background-image: linear-gradient(blue,green);
+    color: seashell;
+}
+#g-derecha-izquierda {
+    height: 250px;
+    width: 250px;
+
+    background-image: linear-gradient(to right,red,yellow);
+}
+#diagonal-hacia-el-fondo-derecha {
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(to bottom right,aquamarine,orange );
+
+}
+#digonale {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(180deg,aquamarine,brown);
+}
+#g-l-multiples-colores {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(red,green,blue);
+}
+#g-l-multiples-colores-2{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right,green,yellow,red,orange,aquamarine);
+}
+#tarea {
+    height: 695px;
+    width: 250px;
+    border-radius: 68%;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(180deg,green,yellow,red,orange,aquamarine,rgb(117, 58, 54),rgb(127, 193, 255),rgb(255, 127, 176));
+    font-size: 5em;
+    transform: rotate(45deg);
+    padding-top: 4em;
+}
+#gradiente-lineal-transparencia {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right,rgba(255,255,255),rgba(255,0,0,1));
+
+}
+#repeti-lineal{
+    height: 250px;
+    width: 800px;
+    background-image: repeating-linear-gradient(red,yellow 10%,green 20%);
+}
+

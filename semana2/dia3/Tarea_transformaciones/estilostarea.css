@@ -1,0 +1,106 @@
+/* img {
+    animation: circulo 5s infinite;
+    width: 10em;
+    height: 10em;
+} */
+/* #imagen1{
+    width: 10em;
+    height: 10em;
+    animation:  mi-animacion 5s infinite;
+
+} */
+#imagen1{
+    width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: prueba-animacion;
+  
+  animation-duration: 4s;
+  transform: translate(1200px,500px); 
+    /* text-align: center; */
+    /* margin-top: 20em;
+    margin-left: 200em; */
+    /* transform: translate(-2000px,400px); */
+
+}
+/* @keyframes example {
+    from { transform: translate(0px); }
+    to { transform:translate(500px); }
+  } */
+@keyframes prueba-animacion {
+   
+    50% {
+        transform: translate(1000px,400px);
+    } 
+
+    60%{
+        transform: translate(-750px,-550px) ;
+    }
+   
+    70%{
+        transform:translate(2500px,-500px) rotate(1080deg) scale(5,5);
+        
+    } 
+    
+    90%{
+        transform: translate(1000px,-500px);
+    }
+    100% {
+        transform: translate(1200px,500px); 
+    }
+}
+@keyframes animacion {
+    0% {
+        border-radius: 0%;
+       
+    }
+    20%{
+        border-radius: 10%;
+        transform:translateX(500px);
+        filter: grayscale(100%);
+        
+    }
+    40% {
+        /* border-radius: 20%; */
+        /* transform:translateX(-250px); */
+       
+        /* transform: rotate(180deg); */
+    }
+    60% {
+        border-radius: 30%;
+        /* transform:translateX(500px); */
+        /* filter: grayscale(100%); */
+        
+    }
+    80% {
+        border-radius: 50%;
+        /* transform:translateX(-250px); */
+        /* filter:blur(20px) */
+    }
+    100% {
+        border-radius: 70%;
+        /* transform:translateY(500px); */
+        /* filter: grayscale(100%) */
+    }
+    /* 90% {
+        border-radius: 90%;
+        transform:translateY(-60px);
+        filter: grayscale(100%)
+    }
+    100% {
+        border-radius: 100%;
+        transform:translate(62px,100px)
+    } */
+}
+@keyframes mi-animacion {
+    0% {
+        background-color: brown;
+    }
+    50% {
+        background-color:green;
+    }
+    100% {
+        background-color: cadetblue;
+    }
+}

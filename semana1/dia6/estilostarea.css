@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Stick&display=swap');
+body{
+    background-image: linear-gradient(286deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+.uno{
+    color: lightcyan;
+}
+.dos {
+    color: lightgray;
+}
+.tres{
+    color: lime;
+
+}
+.cuatro{
+    color: navy;
+
+}
+.quinto{
+    color: rgb(224, 233, 95);
+
+}
+.cancion{
+    font-style: unset;
+    border-bottom: thick solid #CC0000;
+}
+.parrafo1 {
+
+    color: rgb(224 233 95)
+}
+.parrafo2 : {
+    color : rgb(105 107 188);
+}
+.parrafo3 {
+    color: rgb(201, 110, 163)
+}
+.parrafo4 {
+    color: lime
+}
+.nombre{
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bold;
+    font-size: 5em;
+}
+.segundonombre{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 5em
+}
+.apellido {
+    font-family: 'Stick', sans-serif;
+    font-weight: bold;
+    font-size: 5em
+}
+.contenedor {
+    display: inline-flex;
+}
+.foto {
+    float: right;
+    width: 83%;
+    height: 90%;
+    }
+img {
+    -webkit-box-shadow: 0px 0px 15px 15px #c9773e;
+    border-radius: 50%;
+    
+}
+.parrafo1::first-letter{
+    font-size: 3em;
+
+}
+.parrafo2::first-letter{
+    font-size: 3em;
+}
+.parrafo3::first-letter{
+    font-size: 3em;
+}
+#container {
+    width: 988px;
+    margin: 0 auto;
+
+}
