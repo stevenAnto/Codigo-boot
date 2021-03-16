@@ -1,0 +1,38 @@
+#contenedor-principal{
+    background-color: rgb(173, 137, 137);
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+div label {
+    width: 25%;
+    float: left;
+} 
+
+ /* .pregunta {
+    width: 100%;
+    display: inline-block;
+     justify-content: center; 
+    text-align: right; 
+ }
+ 
+ .respuesta {
+    width: 50%;
+    display: inline;   
+    text-align: left;
+    padding-left: 10px;
+ }
+ .frontend {
+    width: 20%;
+    vertical-align: top;
+    position: relative;
+    display: inline;
+ } */  */
+p {
+    display: inline-block;
+}

@@ -1,0 +1,34 @@
+/* body{
+    background-color: teal;
+} */
+/* pantallas extra pequeñas (celulares,hasta 600px */
+@media only screen and (max-width:600px){
+    body{
+        background-color: tomato;
+    }
+}
+/* pantalas pequeñas (tablets en modo portrait(vertical) y celulares grandes */
+@media only screen and (min-width:600px) {
+    body{
+        background-color: violet;
+    }
+}
+
+/*  */
+@media only screen and (min-width:768px) {
+    body {
+        background-color: yellow;
+    }
+}
+/* pantallas grandes o computadoras de escritorio */
+@media only screen and (min-width:992px){
+    body{
+        background-color: thistle;
+    }
+}
+/* Pantallas mucho mas grandes */
+@media only screen and (min-width:1200px){
+    body{
+        background-color: peru;
+    }
+}

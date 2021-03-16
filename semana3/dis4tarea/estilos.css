@@ -1,0 +1,116 @@
+:root {
+    --colorBotones:background-color: #F2F2F2;
+    --display:flex
+
+}
+
+*{
+    margin: 0;
+}
+header{
+    display: var(--display);
+    justify-content: flex-end;
+    height: 50px;
+}
+.txt{
+    margin-top: 30px;
+    margin: 15px;
+    font-size: x-large;
+    padding-top: 10px;
+
+
+}
+.puntos{
+    width: 30px;
+    height: 30px;
+    margin: 16px;
+    padding-top: 10px;
+
+}
+.icono{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+
+}
+main{
+    text-align: center;
+}
+#input {
+    display: var(--display);
+    justify-content: center;
+}
+#lupa{
+    width: 15px;
+    height: 40px;
+
+}
+#micro{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+
+}
+a{
+
+}
+main{
+    margin-top: 200px;
+}
+#contenedor{
+    margin-top: 50px;
+}
+#input{
+    margin: auto;
+    max-width: 650px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    
+}
+input{
+    width: 600px;
+   
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+button{
+    width: 157px;
+    height: 37px;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+.textodebajo{
+    display: var(--display);
+    justify-content: center;
+}
+footer{
+    bottom: 0;
+    /* position: fixed; */
+}
+#footer1 {
+    /* background-color: var(--colorBotones); */
+    --colorBotones: white
+}
+#footer2 {
+    background-color: var(--colorBotones);
+    display: var(--display)x;
+    justify-content: space-around;
+    
+    
+
+}
+#footer21{
+    display: var(--display);
+    justify-content: flex-start;
+}
+#footer22{
+    display: var(--display);
+    justify-content: flex-end;
+}
+p{
+    margin:5px
+}

@@ -1,0 +1,82 @@
+
+* {
+    margin: 0px;
+}
+html{
+    background: url("./assets/fondo3.jpg") no-repeat center center fixed ;
+    background-size: cover;
+    
+}
+#contenedor-horizontal{
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+    height: 200px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-top: -49px;
+}
+#parrafo{
+    margin-top: 35px;
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+}
+nav{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#contenedor-vertical {
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    padding-top: 156px;
+}
+.foto {
+    /* width: 30px;
+    height: auto; */
+    margin: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+#contenedor-horizontal2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(145, 121, 167);
+    margin: 20px;
+}
+.frase{
+    color:black;
+    font-size: large;
+    background-color: white;
+    margin: 3px  ;
+}
+@media only screen and (max-width:600px){
+    #contenedor-horizontal{
+        position:static;
+    }
+    #parrafo {
+        display: none;
+
+    }
+    nav{
+        margin-right: 50px;
+    }
+    #contenedor-horizontal2{
+        flex: wrap;
+        opacity: 0.6;
+    }
+    .frase {
+        
+    }
+}

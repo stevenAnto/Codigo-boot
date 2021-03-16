@@ -1,0 +1,118 @@
+body{
+    background-image: url(./assets/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#main-container {
+    width: 100%;
+}
+div {
+    /* border: solid 2px #888b82; */
+    margin-bottom: 5px;
+
+}
+a {
+    color: rgb(0 0 0 / 93%);
+    font-size:xx-large;
+    margin: 7px;
+    position: right;
+}
+img {
+    width: 8em;
+    opacity: 90%;
+}
+header {
+    background-color: powderblue;
+    opacity: 30%;
+    display: flex;
+    justify-content:center;
+    /* position: fixed; */
+    
+    
+}
+.vacio {
+    width: 45em;
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: rgb(158, 177, 175);
+}
+.descripcion {
+ 
+    width: 9rem;
+	height: 9rem;
+	border-radius: 50%;
+	background: rgb(46, 44, 41);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:0px auto;
+    padding: 0.5em;%;
+    font-size: xx-large;
+    margin-bottom:  70px;
+    opacity: 90%    ;
+    color: white;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+    
+    
+}
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  background-color: rgb(46, 44, 41);
+  cursor: pointer;
+    border:thistle solid 4px ;
+    font-size: medium;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+   overflow:hidden;
+}
+
+@media only screen and (max-width:600px){
+    header{
+        background-color: tomato;
+    }
+}
+/* pantalas pequeñas (tablets en modo portrait(vertical) y celulares grandes */
+@media only screen and (min-width:600px) {
+    body{
+        background-color: violet;
+    }
+}
+
+/*  */
+@media only screen and (min-width:768px) {
+    body {
+        background-color: yellow;
+    }
+}
+/* pantallas grandes o computadoras de escritorio */
+@media only screen and (min-width:992px){
+    body{
+        background-color: thistle;
+    }
+}
+/* Pantallas mucho mas grandes */
+@media only screen and (min-width:1200px){
+    body{
+        background-color: peru;
+    }
+}

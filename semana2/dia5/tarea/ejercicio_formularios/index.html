@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <div id="contenedor-principal">
+      <h3>Pequeña encuesta sobre fronted</h3>
+      <div class="">
+        <label for="nombre">*Nombre</label>
+        <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
+      </div>
+      <div class="">
+        <label for="email">*Email</label>
+        <input id="email" type="text" placeholder="Ingrese tu email" />
+      </div>
+      <div class="">
+        <label for="edad">*Edad</label>
+        <input id="edad" type="number" placeholder="Ingrese su edad" />
+      </div>
+      <div class="">
+        <label>Seleccione ocupacion :</label>
+        <div class="respuesta">
+          <select name="" id="">
+            <option value="carrera1">carrera 1</option>
+            <option value="carrera2">carrera 2</option>
+            <option value="carrera3">carrera 3</option>
+          </select>
+        </div>
+      </div>  
+      <div class="pregunta">
+        <div class="frontend">
+          <p >Que tanto te gusta el fronted:</p>
+        <div class="respuesta">
+          <input type="radio" id="mucho" name="categoria" value="mucho" /><label for="nombre">Mucho</label>
+          <br />
+          <input type="radio" id="maso" name="categoria" value="maso" /><label for="nombre">Maso</label>
+          <br />
+          <input type="radio" id="poco" name="categoria" value="poco" /><label for="nombre">Poco</label>
+        </div>
+      </div>
+      <div class="pregunta">
+        <label for ="role ">Que te gusta mas en Fronted</label>
+        <div class="respuesta">
+          <select name="" id="">
+            <option value="carrera1">estilos</option>
+            <option value="carrera2">Diseño</option>
+            <option value="carrera3">Colorear</option>
+          </select>
+
+        </div>
+      </div>
+      <div class="pregunta">
+        <div class="fronted">
+          <p>Que es lo que mas te emociona</p>
+        </div>
+        <div class="respuesta">
+          <input type="checkbox" id="HTML" name="front" value="front"/><label for="mucho">HTML</label>
+          <br />
+          <input type="checkbox" id="JAVA" name="JAVA" value="JAVA" /><label for="JAVA">JAVA</label>
+          <br />
+          <input type="checkbox" id="CSS" name="CSS" value="CSS" /><label FOR="CSS">CSS</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

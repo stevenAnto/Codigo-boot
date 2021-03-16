@@ -1,0 +1,102 @@
+header{
+    height: 60px;
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color:#563a39;
+    
+
+}
+.fondo{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    max-width: -webkit-fill-available;
+}
+* {
+    margin: 0;
+}
+nav {
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: cadetblue;
+    margin: 10px;
+}
+#nombre {
+    
+    position: relative;
+    top:100px;
+    left: 43%;
+    right: 100;
+    color: white;
+    font-size: xx-large
+    
+}
+#perfil {
+    position: relative;
+    top:120px;
+    left: 620px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.botones {
+    position: relative;
+    text-decoration: none;
+    color: #21ebff;
+    font-size: xx-large;
+    font-weight: bold;
+    background: #000;
+    transition: all 0.3s;
+    cursor: pointer;
+    user-select: none;
+    margin: 30px;
+
+
+     top:180px;
+    left: 400px;
+    /* padding: 4px;
+    border-radius: 15%;
+    border: 4px solid white;
+    background-color:#563a39 ;
+    cursor: pointer;
+    
+    font-size: xx-large; */ */
+}
+.botones:hover {
+    color: #fff;
+  letter-spacing: 2px;
+  box-shadow: none;
+  transform: translateY(5px);
+  box-shadow: 0 0 5px #21ebff, inset 0 0 10px #0bf4f3, 0 0 20px #21ebff inset, 0 0 20px #21ebff inset;
+}
+#boton {
+    text-decoration: none;
+  color: #21ebff;
+  font-size: 0.95rem;
+  font-weight: bold;
+  background: #000;
+  transition: all 0.3s;
+  cursor: pointer;
+  user-select: none;
+
+
+
+    /* position: relative;
+    top:10px;
+    left: 100px; */
+}
+main {
+    text-align: center;
+    background-image: url("./assets/fondo.jpeg");
+    background-size: contain;
+    height: 100vh;
+}
