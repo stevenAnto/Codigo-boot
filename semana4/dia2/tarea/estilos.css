@@ -1,0 +1,15 @@
+p,label,h1 {
+    overflow: scroll;
+    width: 20%;
+    height: 200px;
+    color: cornsilk;
+    
+    
+}
+body{
+    background-image: url(./assets/belier.jpg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    /* position: fixed; */
+}
