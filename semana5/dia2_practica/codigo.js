@@ -1,4 +1,5 @@
-let dias = ["Hola", "Como", "Estas", "disculpa", "por", "moelstarte", "xd"];
+let dias = ["Holaa", "Como", "Estas", "disculpa", "por", "moelstarte", "xd"];
+let parrafo=document.querySelector("p")
 
 // for(i in dias){
 //     alert(dias[i]);
@@ -6,8 +7,11 @@ let dias = ["Hola", "Como", "Estas", "disculpa", "por", "moelstarte", "xd"];
 
 function nombre_dias() {
     for(i in dias){
-        document.write(dias[i]+" ");
+        
+        p=dias;
+        parrafo.textContent=p
     }
+    
     
 }
 
