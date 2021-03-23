@@ -8,8 +8,8 @@ p,label,h1 {
 }
 body{
     background-image: url(./assets/belier.jpg);
-    display: flex;
-    background-size: cover;
-    align-items: center;
+    /* display: flex; */
+    background-size: cover; */
+    /* align-items: center; */ */
     /* position: fixed; */
 }
