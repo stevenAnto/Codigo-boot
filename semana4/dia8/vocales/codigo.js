@@ -91,13 +91,16 @@
 
 // texto.textContent = informacion;
 
-  let array_vocales = ["S","T","","E","V","E","N"]
+  let array_vocales = ["S","T","e","E","V","E","N"]
   const mi_titulo = document.querySelector("h1");
   for (let i=0;i<array_vocales.length;i++){
     setTimeout(()=>{
       mi_titulo.textContent = array_vocales[i]+ " "
     },800*i)
   }
+  
+
+  
 
   // let array_vocales = ["S","T","","E","V","E","N"]
   // const mi_titulo = document.querySelector("h1");
