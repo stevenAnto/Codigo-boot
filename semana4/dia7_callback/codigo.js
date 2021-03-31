@@ -75,32 +75,32 @@
 
 // callbacks
 
-// function mostraralerta(){
-//     alert("Hola eso e sun callback")
+function mostraralerta(){
+    alert("Hola eso e sun callback")
+}
+
+const boton=document.querySelector("button");
+boton.addEventListener("click",mostraralerta)
+
+// let segundos=20 ;
+// lista = [];
+// function empezar_cuenta_atras(){
+//     setInterval(function(){
+//         segundos--;
+//         imprmirsegundos();
+//     },1000);
+//     `\n`
 // }
 
-// const boton=document.querySelector("button");
-// boton.addEventListener("click",mostraralerta)
-
-let segundos=20 ;
-lista = [];
-function empezar_cuenta_atras(){
-    setInterval(function(){
-        segundos--;
-        imprmirsegundos();
-    },1000);
-    `\n`
-}
-
-function imprmirsegundos(){
-    lista.push(segundos)
-    console.log(segundos);
-    document.write(segundos);
+// function imprmirsegundos(){
+//     lista.push(segundos)
+//     console.log(segundos);
+//     document.write(segundos);
     
-}
+// }
 
-document.write(empezar_cuenta_atras())
-console.log[lista]
+// document.write(empezar_cuenta_atras())
+// console.log[lista]
 
 
 //este es setinterval

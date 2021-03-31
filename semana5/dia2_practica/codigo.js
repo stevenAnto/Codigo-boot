@@ -20,10 +20,22 @@ let parrafo=document.querySelector("p")
     
 // }
 
+function suma_N_numeros(n) {
+    let i=0;
+    let resultado=0
+    while(i<=n){
+        
+        resultado +=i;
+        i++
+    }
+    console.log(resultado)
+    document.write(`<p>${resultado}</p>`)
+}
+
 function pedir_un_numero() {
     a=prompt("ingresa un numero");
-    suma_N_numeros(a)
-   
+    suma_N_numeros(a) 
+    
 }
 
 const boton=document.querySelector("button");
@@ -34,19 +46,4 @@ boton.addEventListener("click",pedir_un_numero)
 //     alert(mensaje)
 //   }
 // creaMensaje()
-
-function suma_N_numeros(n) {
-    let i=0;
-    let resultado=0
-    while(i<=n){
-        
-        resultado +=i;
-        i++
-    }
-    document.write(resultado)
-    
-}
-
-
-
 
